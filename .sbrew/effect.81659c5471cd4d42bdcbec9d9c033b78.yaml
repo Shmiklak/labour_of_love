@@ -1,0 +1,46 @@
+﻿FormatVersion: 6
+Name: "Background 1"
+Script: "Background"
+Config:
+  BackgroundPath:
+    Type: "System.String"
+    Value: ""
+  StartTime:
+    Type: "System.Int32"
+    Value: "0"
+  EndTime:
+    Type: "System.Int32"
+    Value: "0"
+  Opacity:
+    Type: "System.Double"
+    Value: "0"
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Random seed"
+Layers:
+  64aba02ee7174c57a68bcf226bb259f5:
+    Name: ""
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  42cd93be75d84a3a98021fa5c7987bcc:
+    Name: "bg_sky"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  8c54430bbde04fe5b2c6735819663a8e:
+    Name: "bg_city_heart"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  680b60ce8e96472c9ed94e4363bded29:
+    Name: "bg_city"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  43c397c8d15a4f9d90ef9d681bfe97b8:
+    Name: "white_bg"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes

@@ -1,0 +1,47 @@
+﻿[Events]
+//Background and Video events
+//Storyboard Layer 0 (Background)
+Sprite,Background,Centre,"sb/etc/flare.png",320,240
+ P,0,121185,,A
+ F,0,121185,122327,1,0
+ S,0,121185,122327,5,6
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+Sprite,Foreground,Centre,"sb/d.png",320,240
+ P,0,203470,,A
+ F,0,203470,204613,1,0
+ S,0,203470,,100
+Sprite,Foreground,Centre,"sb/credits/shadren.png",320,240
+ MY,7,203470,204613,-50,240
+ S,6,203470,204613,0,0.4
+ MY,6,206899,208042,240,540
+Sprite,Foreground,Centre,"sb/credits/wajinshu.png",320,240
+ MY,7,208042,208613,-50,240
+ S,6,208042,208613,0,0.4
+ MY,6,211470,212613,240,540
+Sprite,Foreground,Centre,"sb/credits/shmiklak.png",320,240
+ MY,7,212613,213185,-50,240
+ S,6,212613,213185,0,0.4
+ MY,6,216042,217185,240,540
+Sprite,Foreground,Centre,"sb/credits/daycore.png",320,240
+ MY,7,217185,217756,-50,240
+ S,6,217185,217756,0,0.4
+ MY,6,220613,221756,240,540
+Sprite,Foreground,Centre,"sb/credits/shadren_t.png",320,320
+ S,0,203470,,0.7
+ F,0,203470,204613,0,1
+ F,0,206899,208042,1,0
+Sprite,Foreground,Centre,"sb/credits/wajinshu_t.png",320,320
+ S,0,208042,,0.7
+ F,0,208042,208613,0,1
+ F,0,211470,212613,1,0
+Sprite,Foreground,Centre,"sb/credits/shmiklak_t.png",320,320
+ S,0,212613,,0.7
+ F,0,212613,213185,0,1
+ F,0,216042,217185,1,0
+Sprite,Foreground,Centre,"sb/credits/daycore_t.png",320,320
+ S,0,217185,,0.7
+ F,0,217185,217756,0,1
+ F,0,220613,221756,1,0
+//Storyboard Sound Samples

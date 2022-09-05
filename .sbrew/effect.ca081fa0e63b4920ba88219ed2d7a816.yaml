@@ -1,0 +1,17 @@
+﻿FormatVersion: 6
+Name: "ImportOsb 1"
+Script: "ImportOsb"
+Config:
+  Path:
+    Type: "System.String"
+    Value: "overlay.osb"
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Random seed"
+Layers:
+  1a950d9032fe4c3b92027c9d64f25fab:
+    Name: "Overlay"
+    OsbLayer: Overlay
+    DiffSpecific: No
+    Visible: Yes

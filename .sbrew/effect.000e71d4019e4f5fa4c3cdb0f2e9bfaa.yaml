@@ -1,0 +1,20 @@
+﻿FormatVersion: 6
+Name: "Dworlowo 1"
+Script: "Dworlowo"
+Config:
+  Color:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "1,0.446417,0.9603501,1"
+  ColorVariance:
+    Type: "System.Single"
+    Value: "0.6"
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Random seed"
+Layers:
+  22119aa2a55a47dd9b0316068c1162f6:
+    Name: "Nazi"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes

@@ -1,0 +1,17 @@
+[Events]
+//Background and Video events
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Layer 4 (Overlay)
+Animation,Overlay,Centre,"sb\VHS_glitch\VHS_glitch_.png",320,240,125,50,LoopForever
+ S,0,15,,1.337455
+ F,0,15,226623,0.15
+Animation,Overlay,Centre,"sb\VHS_glitch2\VHS_glitch2_.png",320,240,125,50,LoopForever
+ S,0,15,,1.337455
+ F,0,15,226623,0.08
+Animation,Overlay,Centre,"sb\crt.png",320,240,2,50,LoopForever
+ S,0,0,,0.625
+ F,0,0,226623,0.12
+//Storyboard Sound Samples

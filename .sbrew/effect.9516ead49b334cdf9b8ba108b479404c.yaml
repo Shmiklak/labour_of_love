@@ -1,0 +1,22 @@
+﻿FormatVersion: 6
+Name: "ImportOsb 5"
+Script: "ImportOsb"
+Config:
+  Path:
+    Type: "System.String"
+    Value: "heart.osb"
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Random seed"
+Layers:
+  1408975158e945209b199f6c35b67f31:
+    Name: "Background"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  361e8e50bddc45ce944ac6d54fbf0471:
+    Name: "Foreground"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes

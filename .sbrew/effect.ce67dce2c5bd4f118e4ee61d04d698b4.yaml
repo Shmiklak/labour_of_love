@@ -1,0 +1,22 @@
+﻿FormatVersion: 6
+Name: "ImportOsb 3"
+Script: "ImportOsb"
+Config:
+  Path:
+    Type: "System.String"
+    Value: "first_kiai.osb"
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Random seed"
+Layers:
+  e01913ee5adc42daa01930d541caf32b:
+    Name: "Background"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  6fb39418497e45418a6ebd8b6582de21:
+    Name: "Foreground"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes

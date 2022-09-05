@@ -1,0 +1,93 @@
+﻿FormatVersion: 6
+Name: "Lyrics 2"
+Script: "Lyrics"
+Config:
+  SubtitlesPath:
+    Type: "System.String"
+    Value: "lyrics2.ass"
+  FontName:
+    Type: "System.String"
+    Value: "VCR OSD Mono"
+  SpritesPath:
+    Type: "System.String"
+    Value: "sb/font/full_chars"
+  FontSize:
+    Type: "System.Int32"
+    Value: "36"
+  FontScale:
+    Type: "System.Single"
+    Value: "0.5"
+  FontColor:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "1,1,1,1"
+  FontStyle:
+    Type: "System.Int32"
+    Value: "0"
+    AllowedValues:
+      Regular: "0"
+      Bold: "1"
+      Italic: "2"
+      Underline: "4"
+      Strikeout: "8"
+  GlowRadius:
+    Type: "System.Int32"
+    Value: "0"
+  GlowColor:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "1,1,1,0.1098039"
+  AdditiveGlow:
+    Type: "System.Boolean"
+    Value: "True"
+  OutlineThickness:
+    Type: "System.Int32"
+    Value: "0"
+  OutlineColor:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "0.1921569,0.1921569,0.1921569,0.7803922"
+  ShadowThickness:
+    Type: "System.Int32"
+    Value: "3"
+  ShadowColor:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "0,0,0,0.3921569"
+  Padding:
+    Type: "OpenTK.Vector2"
+    Value: "0,0"
+  SubtitleY:
+    Type: "System.Single"
+    Value: "100"
+  PerCharacter:
+    Type: "System.Boolean"
+    Value: "True"
+  TrimTransparency:
+    Type: "System.Boolean"
+    Value: "True"
+  EffectsOnly:
+    Type: "System.Boolean"
+    Value: "False"
+  Debug:
+    Type: "System.Boolean"
+    Value: "False"
+  Origin:
+    Type: "System.Int32"
+    Value: "4"
+    AllowedValues:
+      TopLeft: "0"
+      TopCentre: "1"
+      TopRight: "2"
+      CentreLeft: "3"
+      Centre: "4"
+      CentreRight: "5"
+      BottomLeft: "6"
+      BottomCentre: "7"
+      BottomRight: "8"
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Random seed"
+Layers:
+  ce0619bbfaf9491ba050cc243cfc9d55:
+    Name: ""
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes

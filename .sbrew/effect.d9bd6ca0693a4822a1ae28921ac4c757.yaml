@@ -1,0 +1,20 @@
+﻿FormatVersion: 6
+Name: "Dworl 2"
+Script: "Dworl"
+Config:
+  Color:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "0.9098039,0.1803922,1,1"
+  ColorVariance:
+    Type: "System.Single"
+    Value: "0.6"
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "1"
+    DisplayName: "Random seed"
+Layers:
+  4aa295119b874fe18e6bdfcd561aaee3:
+    Name: "Nazi"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes

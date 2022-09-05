@@ -1,0 +1,126 @@
+﻿FormatVersion: 6
+Name: "Circles 3"
+Script: "Circles"
+Config:
+  Path:
+    Type: "System.String"
+    Value: "sb/heart.png"
+  StartTime:
+    Type: "System.Int32"
+    Value: "203470"
+  EndTime:
+    Type: "System.Int32"
+    Value: "221764"
+  ParticleDuration:
+    Type: "System.Double"
+    Value: "2000"
+  ParticleAmount:
+    Type: "System.Double"
+    Value: "16"
+  StartPosition:
+    Type: "OpenTK.Vector2"
+    Value: "-107,0"
+  EndPosition:
+    Type: "OpenTK.Vector2"
+    Value: "747,480"
+  RandomX:
+    Type: "System.Boolean"
+    Value: "True"
+  RandomY:
+    Type: "System.Boolean"
+    Value: "False"
+  Easing:
+    Type: "System.Int32"
+    Value: "0"
+    AllowedValues:
+      None: "0"
+      Out: "1"
+      In: "2"
+      InQuad: "3"
+      OutQuad: "4"
+      InOutQuad: "5"
+      InCubic: "6"
+      OutCubic: "7"
+      InOutCubic: "8"
+      InQuart: "9"
+      OutQuart: "10"
+      InOutQuart: "11"
+      InQuint: "12"
+      OutQuint: "13"
+      InOutQuint: "14"
+      InSine: "15"
+      OutSine: "16"
+      InOutSine: "17"
+      InExpo: "18"
+      OutExpo: "19"
+      InOutExpo: "20"
+      InCirc: "21"
+      OutCirc: "22"
+      InOutCirc: "23"
+      InElastic: "24"
+      OutElastic: "25"
+      OutElasticHalf: "26"
+      OutElasticQuarter: "27"
+      InOutElastic: "28"
+      InBack: "29"
+      OutBack: "30"
+      InOutBack: "31"
+      InBounce: "32"
+      OutBounce: "33"
+      InOutBounce: "34"
+  RandomEasing:
+    Type: "System.Boolean"
+    Value: "False"
+  FadeInDuration:
+    Type: "System.Int32"
+    Value: "200"
+  FadeOutDuration:
+    Type: "System.Int32"
+    Value: "200"
+  Color:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "1,0.5548647,0.5548647,0.6"
+  StartScale:
+    Type: "System.Double"
+    Value: "0.01"
+  EndScale:
+    Type: "System.Double"
+    Value: "0.3"
+  RandomScale:
+    Type: "System.Boolean"
+    Value: "True"
+  StartRotation:
+    Type: "System.Double"
+    Value: "0"
+  EndRotation:
+    Type: "System.Double"
+    Value: "0"
+  RandomRotation:
+    Type: "System.Boolean"
+    Value: "False"
+  Origin:
+    Type: "System.Int32"
+    Value: "4"
+    AllowedValues:
+      TopLeft: "0"
+      TopCentre: "1"
+      TopRight: "2"
+      CentreLeft: "3"
+      Centre: "4"
+      CentreRight: "5"
+      BottomLeft: "6"
+      BottomCentre: "7"
+      BottomRight: "8"
+  Additive:
+    Type: "System.Boolean"
+    Value: "True"
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Random seed"
+Layers:
+  2f387066cbe34e33a82492584a44f6c6:
+    Name: ""
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes

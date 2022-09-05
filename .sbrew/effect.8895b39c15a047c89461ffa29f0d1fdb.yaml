@@ -1,0 +1,19 @@
+﻿FormatVersion: 6
+Name: "Dworldowo 1"
+Script: "Dworldowo"
+Config:
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Random seed"
+Layers:
+  2ba84e370af54f368beacef2e197d8b5:
+    Name: "vertical_lines"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  7187cb968dec4da395cd0b75f143d4ce:
+    Name: "Nazi"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes

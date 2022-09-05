@@ -1,0 +1,14 @@
+﻿FormatVersion: 6
+Name: "Memories 1"
+Script: "Memories"
+Config:
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "12"
+    DisplayName: "Random seed"
+Layers:
+  960eaf271bbd48bea0fbe4ab71a1ca50:
+    Name: "maps"
+    OsbLayer: Foreground
+    DiffSpecific: No
+    Visible: Yes

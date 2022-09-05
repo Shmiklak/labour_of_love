@@ -1,0 +1,17 @@
+﻿FormatVersion: 6
+Name: "ImportOsb 4"
+Script: "ImportOsb"
+Config:
+  Path:
+    Type: "System.String"
+    Value: "cool_vibe.osb"
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Random seed"
+Layers:
+  a1ad48d09a1842baa595bbc86bf992ea:
+    Name: "Foreground"
+    OsbLayer: Foreground
+    DiffSpecific: No
+    Visible: Yes

@@ -1,0 +1,19 @@
+﻿FormatVersion: 6
+Name: "Dworld 1"
+Script: "Dworld"
+Config:
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Random seed"
+Layers:
+  8b5aaf3dc2c9437097a7f64886046214:
+    Name: "Nazi"
+    OsbLayer: Foreground
+    DiffSpecific: No
+    Visible: Yes
+  7e6bba50f8fe401c8f3cbd07f8d66867:
+    Name: "vertical_lines"
+    OsbLayer: Foreground
+    DiffSpecific: No
+    Visible: Yes

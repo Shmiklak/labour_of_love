@@ -1,0 +1,36 @@
+﻿FormatVersion: 6
+Name: "SquaresBG 1"
+Script: "SquaresBG"
+Config:
+  Color:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "1,0.001406431,0.5923874,1"
+  Color2:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "1,0,0,1"
+  ColorVariance:
+    Type: "System.Single"
+    Value: "0.3"
+  travelSpeedVal:
+    Type: "System.Single"
+    Value: "-13"
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Random seed"
+Layers:
+  d3119adf5921403ca93e4c6bac073ceb:
+    Name: "SquaresBG"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  4842d192f9964392bce201041fbc4aa0:
+    Name: "squares_heart"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
+  9b2a63eedca94f079d8478cb3ba0e100:
+    Name: "flash"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
